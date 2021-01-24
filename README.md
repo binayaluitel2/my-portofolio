@@ -8,7 +8,7 @@ As a part of this assignment, I attempted to create a responsive portfolio which
 
 ## Link to the Deployed App
 
-[link to Deployed App](https://binayaluitel2.github.io/my-portofolio/index.html/)
+[link to Deployed App](https://binayaluitel2.github.io/my-portofolio/)
 
 ## Screenshot of Deployed App (Expanded)
 

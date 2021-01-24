@@ -17,8 +17,25 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <body>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".btn").on("click", function () {
+          var newDiv = $("<div>");
+
+          newDiv.text(
+            "!!!!! Sorry, Contact Form is not working at the moment. Please email me at: luitelbinayababu@gmail.com !!!!!"
+          );
+
+          $("#empty-div").append(newDiv);
+
+          newDiv.attr("class", "fancy");
+          newDiv.css({ color: "red", "font-size": "150%" });
+        });
+      });
+    </script>
     <!-- Start Nav -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
       <header class="myname">
@@ -54,6 +71,7 @@
           <section class="surrounding">
             <section class="main-content">
               <section class="page-header">
+                <div id="empty-div"></div>
                 <h1>Contact</h1>
               </section>
               <form>

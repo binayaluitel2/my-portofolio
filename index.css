@@ -1,0 +1,107 @@
+/* My Name Scection */
+.myname {
+  background-color: lightseagreen;
+  color: white;
+}
+
+/* Body */
+body {
+  background-image: url("https://thumbs.dreamstime.com/b/gray-marble-background-texture-high-resolution-stone-162107965.jpg");
+  height: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* My Photo Portfolio*/
+.myphoto-portfolio {
+  height: 250px;
+  /* width: 250px; */
+  max-width: 100%;
+   /* float: left; */
+  /* margin: 0px 0px 10px 10px;  */
+  border: 5px solid #000000;
+}
+
+/* My Photo About Me*/
+.myphoto-about {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin: 0px 20px 10px 10px;
+  border: 5px solid #000000;
+}
+/* Page Headers "About Me", "Portfolio", "Contact" */
+.page-header {
+  color: lightseagreen;
+  font-family: sans-serif, serif;
+  border-bottom: 10px;
+  border-color: mediumaquamarine;
+}
+
+/* Extra surrounding around container for extra fomatting */
+.surrounding {
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /* margin-left: auto; */
+}
+.inside-container{
+  background-color: blue;
+}
+/* main content on index.html */
+.main-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Submit button on Contact Page */
+.btn {
+  background-color: lightseagreen;
+  margin-bottom: 10px;
+}
+
+/* Footer on all the pages */
+footer {
+  position: fixed;
+  bottom: 0px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 55px; /* Height of the footer */
+  background: lightseagreen;
+}
+
+/* Linkedin Youtube and Instagram Logo on Footer */
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.project-title {
+  position: relative;
+  margin: 0px 0px 10px 10px; 
+  font-size: x-large;
+  text-decoration-line: underline;
+
+  
+}
